@@ -1,0 +1,216 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "易音乐"
+			}
+		},
+		{
+			"path":"pages/school/myschool",
+			"style": {
+					"navigationBarTitleText": "大学生活"
+				}
+		},
+		{
+			"path": "pages/school/class",
+			"style": {
+				"navigationBarTitleText": "我的课表"
+			}
+		},
+		{
+			"path": "pages/school/footer",
+			"style": {
+				"navigationBarTitleText": "校园计步"
+			}
+		},
+		{
+			"path": "pages/school/map",
+			"style": {
+				"navigationBarTitleText": "校园地图"
+			}
+		},
+		{
+			"path":"pages/constellation/constellation",
+			"style": {
+					"navigationBarTitleText": "星座运势"
+				}
+		},
+		{
+			"path":"pages/main/main",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationStyle": "custom" // 取消本页面的导航栏
+			}
+		},
+		{
+			"path":"pages/detail/advice",
+			"style":{
+				"navigationBarTitleText":"留言"
+			}
+		},
+		{
+			"path":"pages/main/alter/alter",
+			"style":{
+				"navigationBarTitleText":"个人信息"
+			}
+		},
+		{
+			"path":"pages/login/login",
+			"style":{
+				"navigationBarTitleText":"登录"
+			}
+		},
+		{
+			"path":"pages/login/register",
+			"style":{
+				"navigationBarTitleText":"注册"
+			}
+		},
+		{
+			"path":"pages/news/news",
+			"style": {
+					"navigationBarTitleText": "易新闻"
+				}
+		},
+		{
+			"path":"pages/weather/weather",
+			"style": {
+				"navigationBarTitleText": "天气预报",
+				"navigationStyle": "custom", // 取消本页面的导航栏
+				"app-plus": {
+					"animationType": "fade-in", // 设置fade-in淡入动画，为最合理的动画类型
+					"background": "transparent", // 背景透明
+					"backgroundColor": "rgba(0,0,0,0)", // 背景透明
+					"webviewBGTransparent": true,
+					"mask": "none",
+					"popGesture": "none" // 关闭IOS屏幕左边滑动关闭当前页面的功能
+				}
+			}
+		},
+		{
+			"path":"pages/detail/about",
+			"style":{
+				"navigationBarTitleText":"关于我们"
+			}
+		},
+		{
+			"path":"pages/detail/love",
+			"style":{
+				"navigationBarTitleText":"赞助我们"
+			}
+		},
+		{
+			"path":"pages/detail/share",
+			"style":{
+				"navigationBarTitleText":"分享好友"
+			}
+		},
+		{
+			"path":"pages/detail/where",
+			"style":{
+				"navigationBarTitleText":"我们在哪？？？"
+			}
+		},
+		{
+			"path":"pages/detail/mian",
+			"style":{
+				"navigationBarTitleText":"免责声明"
+			}
+		},
+		{
+			"path":"pages/detail/join",
+			"style":{
+				"navigationBarTitleText":"加入我们"
+			}
+		},
+		{
+			"path":"components/webview/webview",
+			"style":{
+				"navigationBarTitleText":"文章详情"
+			}
+		},
+		{
+			"path":"pages/index/plun",
+			"style":{
+				"navigationBarTitleText":"热门评论"
+			}
+		},
+		{
+            "path" : "pages/main/setting/setting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "设置"
+            }
+            
+        },
+        {
+            "path" : "pages/main/setting/changedate/changedate",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "信息修改"
+            }
+            
+        },
+        {
+            "path" : "pages/main/setting/changepassword/changepassword",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "账号与安全"
+            }  
+        }
+        ,{
+            "path" : "pages/main/setting/style/style",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "偏好设置"
+            }
+            
+        }
+        ,{
+            "path" : "pages/main/setting/style/changesinger/changesinger",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改默认歌手"
+            }
+            
+        }
+    ],
+		"globalStyle": {
+			"navigationBarTextStyle": "black",
+			"navigationBarTitleText": "易生活",
+			"navigationBarBackgroundColor": "#F8F8F8",
+			"backgroundColor": "#F8F8F8"
+		},
+		"tabBar":{
+		"color":"#333333",
+		"selectedColor":"#007AFF",
+		"list":[{
+			"pagePath":"pages/index/index",
+			"text":"视频音乐",
+			"iconPath":"static/index.png",//图片
+			"selectedIconPath":"static/indexbefore.png"//选中时图片路径
+		},{
+			"pagePath":"pages/news/news",
+			"text":"新闻头条",
+			"iconPath":"static/news.png",//图片
+			"selectedIconPath":"static/newsbefore.png"//选中时图片路径
+		},{
+			"pagePath":"pages/school/myschool",
+			"text":"大学生活",
+			"iconPath":"static/school.png",//图片
+			"selectedIconPath":"static/schoolbefore.png"//选中时图片路径
+		},{
+			"pagePath":"pages/weather/weather",
+			"text":"天气查询",
+			"iconPath":"static/weatherbefore.png",//图片
+			"selectedIconPath":"static/weather.png"//选中时图片路径
+		},
+		{
+			"pagePath":"pages/main/main",
+			"text":"个人中心",
+			"iconPath":"static/main.png",//图片
+			"selectedIconPath":"static/mainbegore.png"//选中时图片路径
+		}]
+	}
+}

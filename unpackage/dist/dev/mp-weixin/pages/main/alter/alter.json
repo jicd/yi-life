@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "个人信息",
+  "usingComponents": {
+    "itmister-address-picker": "/components/itmister-address-picker/itmister-address-picker",
+    "mpopup": "/components/xuan-popup/xuan-popup"
+  }
+}

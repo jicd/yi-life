@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "留言",
+  "usingComponents": {
+    "ygc-comment": "/components/ygc-comment/ygc-comment",
+    "mpopup": "/components/xuan-popup/xuan-popup"
+  }
+}

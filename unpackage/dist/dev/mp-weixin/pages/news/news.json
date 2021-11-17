@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "易新闻",
+  "usingComponents": {
+    "liuyuno-tabs": "/components/liuyuno-tabs/liuyuno-tabs",
+    "mpopup": "/components/xuan-popup/xuan-popup"
+  }
+}

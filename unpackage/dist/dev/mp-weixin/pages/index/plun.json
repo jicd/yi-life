@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "热门评论",
+  "usingComponents": {
+    "mpopup": "/components/xuan-popup/xuan-popup"
+  }
+}

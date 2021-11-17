@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "修改默认歌手",
+  "usingComponents": {
+    "mpopup": "/components/xuan-popup/xuan-popup"
+  }
+}

@@ -1,0 +1,1 @@
+<view><web-view src="{{newsrc}}" progress="{{false}}"></web-view><view class="listen"><image class="img" src="/static/yuyin.png" mode></image></view></view>

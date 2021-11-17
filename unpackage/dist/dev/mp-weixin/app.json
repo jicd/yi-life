@@ -1,0 +1,64 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/constellation/constellation",
+    "pages/main/main",
+    "pages/detail/advice",
+    "pages/main/alter/alter",
+    "pages/login/login",
+    "pages/login/register",
+    "pages/news/news",
+    "pages/weather/weather",
+    "pages/detail/about",
+    "pages/detail/love",
+    "pages/detail/share",
+    "pages/detail/where",
+    "pages/detail/mian",
+    "pages/detail/join",
+    "components/webview/webview",
+    "pages/index/plun",
+    "pages/main/setting/setting",
+    "pages/main/setting/changedate/changedate",
+    "pages/main/setting/changepassword/changepassword",
+    "pages/main/setting/style/style",
+    "pages/main/setting/style/changesinger/changesinger"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "易生活",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#007AFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "视频音乐",
+        "iconPath": "static/index.png",
+        "selectedIconPath": "static/indexbefore.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "新闻头条",
+        "iconPath": "static/news.png",
+        "selectedIconPath": "static/newsbefore.png"
+      },
+      {
+        "pagePath": "pages/weather/weather",
+        "text": "天气查询",
+        "iconPath": "static/weatherbefore.png",
+        "selectedIconPath": "static/weather.png"
+      },
+      {
+        "pagePath": "pages/main/main",
+        "text": "个人中心",
+        "iconPath": "static/main.png",
+        "selectedIconPath": "static/mainbegore.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

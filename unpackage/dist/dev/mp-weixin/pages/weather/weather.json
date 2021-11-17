@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "天气预报",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-search-bar": "/uni_modules/uni-search-bar/components/uni-search-bar/uni-search-bar",
+    "mpopup": "/components/xuan-popup/xuan-popup",
+    "my-popup": "/components/qianxiao-pop/qianxiao-pop",
+    "ss-select-city": "/components/ss-select-city/index"
+  }
+}
